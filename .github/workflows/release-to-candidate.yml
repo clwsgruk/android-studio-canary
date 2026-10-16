@@ -65,6 +65,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 📸 Gather screenshots
+        continue-on-error: true
         uses: snapcrafters/ci/get-screenshots@main
         with:
           issue-number: ${{ needs.call-for-testing.outputs.issue-number }}

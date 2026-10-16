@@ -2,9 +2,9 @@
 Version=1.0
 Type=Application
 Name=Android Studio Canary
-Icon=${SNAP}/bin/studio.png
+Icon=android-studio-canary
 Exec=android-studio-canary %f
-Comment=Android Studio Canary
+Comment=Develop Android applications with the latest preview features
 Categories=Development;IDE;
 Terminal=false
 StartupWMClass=jetbrains-studio-canary
